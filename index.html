@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>ASCII</title>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <h1>Image to ASCII</h1>
+        <input type="file" accept="image/*" class="image" id="image" />
+        <canvas id="canvas1" width="600" height="400"></canvas>
+        <div>
+            <input
+                type="range"
+                min="1"
+                max="12"
+                value="5"
+                class="resolution"
+                id="resolution"
+                name="resolution"
+            />
+            <label for="resolution">Resolution 5</label>
+        </div>
+    </body>
+    <script src="index.js"></script>
+</html>

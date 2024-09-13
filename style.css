@@ -1,0 +1,28 @@
+* {
+    background-color: black;
+    color: white;
+}
+body,
+html {
+    padding: 0;
+    margin: 0;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+}
+#canvas1 {
+    border: 2px solid white;
+    margin-top: 50px;
+}
+.resolution {
+    margin-top: 40px;
+    width: 500px;
+    margin-bottom: 40px;
+}
+div label {
+    font-size: 20px;
+    padding-left: 24px;
+}
